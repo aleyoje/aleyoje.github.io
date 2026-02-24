@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(241, 233, 233);
+    color: rgb(47, 47, 66);
+    font-family: Arial;
+    font-size: medium;
+    transition: 0.4s; 
+    text-align: center;
+    display: inside;
+    padding-top:50px; 
+    }
+
+    .decorTitle {
+       font-family: Helvetica;
+       letter-spacing: 15px;
+    }
+
+    .decorSubTitle {
+       font-family: Helvetica;
+       font-size: small;
+       letter-spacing: 8px;
+       font-style: bold;
+    }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid rgb(110, 96, 120);
+} 
+
+.Modo-oscuro {
+    background-color: rgb(29, 31, 45);
+    color: rgb(221, 192, 192);
+}
+
+.Modo-oscuro button {
+    align-self: left;
+    border-color: white;
+    background-color: rgb(39, 37, 37);
+    color: white;
+} 
