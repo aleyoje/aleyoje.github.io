@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="his_style.css">
+        
+    
+     <title>Mi Historia - Aleyda Ojeda</title>
+    </head>
+
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+    </style>
+
+    <body>
+
+            
+            <nav class="decorMenu">
+                <a href="mi_historia.html">Mi Historia </a> 
+                <!-- <a href="galería_de_act.html">Galería de Actividades</a> -->
+                <a href="index_test.html">Home</a>
+                
+                <div class="decorcambiarColor">
+                <button onclick="cambiarColor()">⋆｡‧˚ʚ☀️🌕ɞ˚‧｡⋆</button>
+                </div>
+
+            </nav>
+
+            <script>
+
+              function cambiarColor(){ 
+                        let cuerpo = document.body;
+                        cuerpo.classList.toggle("Modo-oscuro");
+
+                            let smiski = document.querySelector(".smiski");
+
+                            if (smiski.src.includes("smiski1.png")) {
+                                smiski.src = "smiski2.png";   // imagen modo oscuro
+                            } else {
+                                smiski.src = "smiski1.png";   // imagen modo claro
+                            }
+                        }
+            </script>
+
+
+        <header class="cabecera" style="text-transform: uppercase;">
+                
+                <h1>Mi Historia</h1>
+
+        </header>
+
+        <img class = "smiski" src ="smiski1.png">
+
+    
+
+                  <section class="frame uno">
+
+                        <div class="contenedorTxt">
+
+                            <span class="decorSubTitle">Biografía</span>
+                            <h2 class = "decorTitle">Todo comenzó cuando...</h2>
+                            <p class = "decorTxT"> Nací el 28 de octubre de 2005 en el Hospital Vermar Ensenada, desde pequeña me ha fascinado el arte y el dibujo digital, 
+                                desde los 9 años curse en talleres de artes plásticas infantiles de parte la Facultad de Artes en la Universidad de UABC Ensenada 
+                                (2014-2016) participando en exposiciones de arte y escultura. Igualmente, continue mi trayectoría artística del lado de la música en la 
+                                Casa de La Cultura con clases de piano y presenté mi primer recital en el año 2019 y en 2021 deje las clases de piano para practicar el 
+                                ukulele de manera independiente. </p>
+
+                            <p class = "decorTxT">
+                                En la Universidad participe en el hackathon de Apple de la convocatoria ENACTUS Tijuana 2024 como desarrolladora 
+                                de diseño gráfico digital con el propósito de atender un problema de sostenibilidad e impacto social. Luego, participe como asistente de 
+                                director en el cortometraje La Secta para el taller de cine junto a la directora y guionista Nadia Islas en el año 2025.
+                                Actualmente, soy una estudiante de la carrera de ingeniería en diseño gráfico digital de CETYS Universidad en el campus de Ensenada, Baja California.
+                            </p>
+
+                        </div>
+
+                    </section>
+
+            
+            <div class="wrap">
+
+                    
+                    <section class="frame dos">
+
+                        <!-- <h2 class = "decorTitle">Habilidades</h2> -->
+
+                        <main class="bento-grid">
+
+                            <article class="bento-item-1">
+                               
+                                <img src="AleyOje3.jpg">
+
+                            </article>
+                            
+                            <article class="bento-item">
+                              
+                                <img src="AleyOje4.jpg">
+                                
+                            </article>
+
+                            <article class="bento-item">
+                               
+                                <img src="Amy2.png">
+
+                            </article>
+
+                            <article class="bento-item-4">
+
+                                <img src="AleyOje5.png">
+                            
+                            </article>
+
+                        </main>
+                    </section>
+            </div>
+ 
+                <footer>
+                    
+                        <span>+52 646 185 7124</span>
+                        <span>aleyda.ojeda@cetys.edu.mx</span>
+                        <span>IG: lustyy_y_1</span>
+                    
+                </footer>
+
+    </body>
+</html>

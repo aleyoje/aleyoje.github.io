@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(241, 233, 233);
+    background-color: rgb(255, 178, 178);
     color: rgb(47, 47, 66);
     font-family: Arial;
     font-size: medium;
@@ -10,8 +10,9 @@ body {
     }
 
     .decorTitle {
-       font-family: Helvetica;
-       letter-spacing: 15px;
+       font-family: "Trirong", serif;
+       letter-spacing: 5px;
+       font-size: 50px;
     }
 
     .decorSubTitle {
@@ -19,6 +20,74 @@ body {
        font-size: small;
        letter-spacing: 8px;
        font-style: bold;
+    }
+
+    #decorText{
+        font-family: Helvetica;
+       font-size: 15px;
+       /* letter-spacing: 8px; */
+       font-style: bold;
+       position: absolute;
+    }
+
+    .decorcambiarColor{
+          position: absolute; 
+          top: 10%;
+          left: 20%;
+          transform: translate(-50%, -50%);
+    }
+
+    .decorMenu{
+            position: absolute;
+            top: 10%;
+             left: 70%;
+             transform: translate(-50%, -50%);
+    }   
+
+    .square1{
+    width: 1700px;
+    /* height: 200px; */
+    /* background-color: rgb(227, 106, 106); */
+    z-index: -1;
+    position: absolute;
+    /* top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    */
+    } 
+
+     .square2{
+    width: 100px;
+    height: 100px;
+    /* width:min(48vmin,300px); */
+    background-color: rgb(255, 178, 178);
+    /* z-index: -1; */
+    text-align: left;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    aspect-ratio:1/1;
+        border-radius:10px;
+        border-width: 50px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    } 
+     
+    .circle{
+          width: 100px;
+    height: 100px;
+    background-color: rgb(255, 242, 208);
+    border-radius: 50%; /* Convierte el cuadrado en círculo */
+    font-family: "Trirong", serif;
+    text-align: center;
+    
+    /* Técnica clásica de centrado absoluto */
+    /* position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) */
     }
 
 button {
@@ -40,6 +109,8 @@ button {
     background-color: rgb(39, 37, 37);
     color: white;
 } 
+
+
 
 @media(max-width: 768px){
     header{
