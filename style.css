@@ -211,12 +211,13 @@ ul{
 .decorImg1{
     width:400px;
     height:300px; 
-    position: absolute;
-    top: 50%;
-    right: 60%;  
     z-index: 10;
     border: 5px solid rgb(255, 178, 178);
     border-radius: 30px;
+     position: absolute;
+    top: 30vh;        
+    left: 10vw;      
+    width: 25vw; 
 }
 
  .decorImg2{
