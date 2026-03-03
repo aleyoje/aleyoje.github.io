@@ -172,9 +172,9 @@ button {
 
 .smiski{
          position: absolute;
-    top: 50vh;        
-    left: 45vw;      
-    width: clamp(150px, 25vw, 400px);
+    top: 35vh;              
+    left: 55vw;         
+    width: clamp(80px, 12vw, 150px);
     width: 120px;
     height: 120px;
     z-index: 10;
