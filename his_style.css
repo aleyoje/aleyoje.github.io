@@ -176,16 +176,15 @@ button {
     left: 55vw;         
     width: clamp(80px, 12vw, 150px);
     width: 120px;
-    height: 120px;
+    height: auto;
     z-index: 10;
     border: none;
     border-radius: 0; 
 }
 
 .Modo-oscuro .smiski2{
-    position: absolute;
-    top: 70%;
-    left: 47%;
+    top: 40vh;
+    left: 50vw;
     width: 120px;
     height: 120px;
     z-index: 10; 
