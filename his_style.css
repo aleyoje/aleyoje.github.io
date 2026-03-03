@@ -174,7 +174,7 @@ button {
          position: absolute;
     top: 50vh;        
     left: 45vw;      
-    width: 25vw; 
+    width: clamp(150px, 25vw, 400px);
     width: 120px;
     height: 120px;
     z-index: 10;
